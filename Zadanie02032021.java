@@ -4,7 +4,7 @@ public class Zadanie02032021{
 	}
 	
 	public static void tablica2x2(){
-		int[][] tab2d = new int[5][2];
+		int[][] tab2d = new int[3][3];
 		tab2d[0][1] = 1;
 		tab2d[1][1] = 2;
 		tab2d[2][0] = 3;
