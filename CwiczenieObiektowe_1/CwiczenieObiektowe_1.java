@@ -1,6 +1,7 @@
 class CwiczenieObiektowe_1{
 	public static void main(String[] args){
 		MojeDane md = new MojeDane("Michal", "Dondajewski", "2PTN");
+		System.out.println(md.imie + " "+md.nazwisko+" "+md.klasa);
 		Logowanie lo = new Logowanie();
 		Kolo k1 = new Kolo(4.0);
 		Kolo k2 = new Kolo(20.0);
