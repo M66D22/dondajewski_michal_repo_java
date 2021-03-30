@@ -1,5 +1,5 @@
-class MojeDane{
-	public String imie = "Michal";
-	public String nazwisko = "Dondajewski";
-	public String klasa = "2PTN";
+class MojeDane{	
+	public MojeDane(String imie, String nazwisko, String klasa){
+		System.out.println(imie + " " +nazwisko+" "+klasa);
+	}
 }
