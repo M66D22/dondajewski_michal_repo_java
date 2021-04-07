@@ -14,10 +14,10 @@ class Tablica{
 	private void wypelnianieTablic(){
 		Random r = new Random();
 		for (int i = 0; i < tab1.length; i++){
-			tab1[i] = r.nextInt(10) - 10;
+			tab1[i] = r.nextInt(21) - 10;
 		}
 		for (int i = 0; i < tab2.length; i++){
-			tab2[i] = r.nextInt(10) - 10;
+			tab2[i] = r.nextInt(21) - 10;
 		}
 	}
 	

@@ -18,8 +18,17 @@ class DondajewskiMichal{
 		Tablica tablica = new Tablica(10);
 		int tab1[] = tablica.pobierzTab1();
 		int tab2[] = tablica.pobierzTab2();
+		String znak = "";
 		for (int i = 0; i < tab1.length; i++){
-			System.out.println(tab1[i] + "    " + tab2[i]);
+			if (tab1[i] > tab2[i]){
+				znak = ">";
+			}else if(tab1[i] < tab2[i]){
+				znak = "<";
+			}else if(tab1[i] == tab2[i]){
+				znak = "=";
+			}
+			
+			System.out.println(tab1[i] + "          " + znak + "            " + tab2[i]);
 		}
 	}
 }
