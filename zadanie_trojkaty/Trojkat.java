@@ -16,10 +16,13 @@ class Trojkat{
 		System.out.println(a*h/2);
 	}	
 	public Trojkat(int a, int b, int c, int r){
-		System.out.println(a*b*c/4*r);
+		System.out.println("\n"+a*b*c/4*r);
 	}	
 	public Trojkat(double r, double p){
-		System.out.println(r*p);
+		System.out.println("\n"+r*p);
+	}	
+	public Trojkat(double p, int a, int b, int c){
+		System.out.println("\n"+sqrt(p*(p-a)*(p-b)*(p-c)));
 	}
 
 }
