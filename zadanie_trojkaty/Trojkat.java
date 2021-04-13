@@ -1,3 +1,5 @@
+import static java.lang.Math.*;
+
 class Trojkat{
 	/*
 	Było kilka kontruktorów bo mamy różne rodzaje trójkątów
@@ -9,9 +11,15 @@ class Trojkat{
 	równoboczny, równoramienny, różnoboczny, prostokątny, ostrokątny, rozwartokątny
 	*/
 	
-	private int a = 0;
-	private int b = 0;
-	private int c = 0;
-	private h = 0;
-	
+	//Pole trójkątu równobocznego
+	public Trojkat(int a, int h){
+		System.out.println(a*h/2);
+	}	
+	public Trojkat(int a, int b, int c, int r){
+		System.out.println(a*b*c/4*r);
+	}	
+	public Trojkat(double r, double p){
+		System.out.println(r*p);
+	}
+
 }
