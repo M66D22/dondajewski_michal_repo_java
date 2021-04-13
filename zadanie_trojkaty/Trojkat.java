@@ -23,6 +23,9 @@ class Trojkat{
 	}	
 	public Trojkat(double p, int a, int b, int c){
 		System.out.println("\n"+sqrt(p*(p-a)*(p-b)*(p-c)));
+	}	
+	public Trojkat(double a){
+		System.out.println("\n"+pow(a,2) * sqrt(3)/4);
 	}
 
 }
